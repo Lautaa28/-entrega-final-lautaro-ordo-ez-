@@ -1,0 +1,28 @@
+/*-----FOOTER------*/
+footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 100px;
+    background-color: black;
+    }
+    
+    .subtitufoo {
+    font-size: 20PX;
+    }
+    
+    .footer {
+    color: $c-withesmoke;
+    padding-top: 20px;
+    }
+    
+    .letrasfoo {
+    color: $c-withesmoke;
+    font-size: 20PX;
+    }
+    

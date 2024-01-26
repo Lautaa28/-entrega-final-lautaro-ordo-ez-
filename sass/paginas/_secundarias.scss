@@ -1,0 +1,68 @@
+/*tarjetas segunda pagina*/
+.cuerpo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    .panel {
+    display: grid;
+    grid-column: span 2;
+    font-size: 20px;
+    border: 1px solid grey;
+    }
+    
+    .tarjeta {
+    border: solid 1px black;
+    border-radius: 5px;
+    }
+    
+    .ropaimg {
+    width: 100%;
+    height: 100%;
+    }
+    
+    .pie {
+    text-align: center;
+    font-size: 10px;
+    }
+    
+    .pie p {
+    text-align: 30px;
+    }
+    
+    article a {
+    text-decoration: none;
+    color: $c-withesmoke;
+    list-style: none;
+    font-size: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    }
+    
+    /*tabla talle*/
+    
+    .indpag {
+    font-size: 40px;
+    padding-top: 20px;
+    }
+    
+    .talles {
+    font-size: 30px;
+    padding: 10px;
+    }
+    
+    .tablatalle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 200px;
+    padding: 20px;
+    }

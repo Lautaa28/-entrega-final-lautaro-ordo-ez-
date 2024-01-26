@@ -1,0 +1,25 @@
+$c-black:black;
+$c-withesmoke:whitesmoke;
+
+$ff-mukta:'Mukta', sans-serif;
+$ff-roboro:'Roboto Condensed', sans-serif;
+$ff-lato:'Lato', sans-serif;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+h1 {font-family:$ff-mukta ;}
+
+h2{font-family:$ff-roboro;}
+
+h3{font-family:$ff-lato ;}
+
+img{max-width: 100%;}
+

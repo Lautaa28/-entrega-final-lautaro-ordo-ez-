@@ -1,0 +1,50 @@
+.separadores {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    /*tarjetas*/
+    .cuerpoind {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    .tarjetaind {
+    border: solid 1px black;
+    border-radius: 5px;
+    display: grid;
+    width: 150px;
+    height: 200;
+    }
+    
+    .ropaimgind {
+    width: 148px;
+    height: 250px;
+    }
+    
+    .pieind {
+    text-align: center;
+    font-size: 10px;
+    }
+    
+    .pieind p {
+    text-align: 30px;
+    }
+    
+    main article a {
+    text-decoration: none;
+    color:$c-withesmoke;
+    list-style: none;
+    font-size: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    }
+    

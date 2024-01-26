@@ -1,0 +1,55 @@
+/*nosotros*/
+
+.mapcont{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;}
+    
+    .mapa{
+        background-color: black;
+    border: solid 1rem black; 
+    height: 15rem;
+    width:15rem ;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .nuestro{
+    width:10rem;
+    height: 2rem ;
+    color: $c-withesmoke;
+    font-size: 1rem;
+    padding-left: 3rem;}
+    
+    .map{ height: 10rem; 
+    width: 12rem;
+    padding-left: 1rem;
+    ;}
+    
+    .contact{ border: solid 1rem black;
+    background-color: black;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    }
+    
+    .objetos{display: flex;
+        align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    }
+    
+    .email{width:10rem ;
+    height:1rem ;
+    }
+    
+    .consulta{
+    width: 10rem;
+    height: 8rem;
+    }
